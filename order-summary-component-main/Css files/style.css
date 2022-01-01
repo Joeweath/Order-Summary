@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  position: relative;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+  margin-top: 100px;
+}
+
+.main-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  gap: 20px;
+  border-radius: 1.2rem;
+}
+
+.container {
+  text-align: center;
+}
+.ordersummary {
+  margin: 1rem;
+}
+.songs {
+  color: hsl(224, 23%, 55%);
+}
+
+.hero-img {
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+
+.paymentsection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.planprice {
+}
+
+.plan {
+  font-weight: 900;
+}
+
+.price {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.change:hover {
+  text-decoration: none;
+  opacity: 0.75;
+  background-color: orangered;
+}
+
+button {
+  border-radius: 5px;
+  width: 70%;
+  padding: 10px 0;
+  margin: auto;
+  border: 1px;
+  background-color: hsl(245, 75%, 52%);
+}
+
+button a {
+  color: hsl(225, 100%, 98%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+button a:hover,
+button:hover {
+  text-decoration: none;
+  opacity: 0.75;
+  background-color: orangered;
+}
+
+.cancel {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.cancel:hover {
+  text-decoration: none;
+  opacity: 0.75;
+  background-color: orangered;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px */
